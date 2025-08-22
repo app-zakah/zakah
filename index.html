@@ -364,6 +364,10 @@
 
 
 
+<div class="section" onclick="downloadAndroidApp()">
+  <img src="../zakah/icone-web/644458.png" alt="برنامج الزكاة للأندرويد" style="width: 60px; height: 60px;" />
+  <div class="section-title">حمل برنامج الزكاة للأندرويد</div>
+</div>
 
 
 
@@ -389,6 +393,16 @@
   
 </div>
 <script>
+
+function downloadAndroidApp() {
+  const link = document.createElement('a');
+  link.href = 'https://app-zakah.github.io/zakah/APPZAKAH.apk';
+  link.download = 'Zakat_Calculator.apk';
+  link.click();
+}
+
+
+  
   function downloadZakat_Calculator() {
     const link = document.createElement('a');
     link.href = 'https://mega.nz/file/HQUjjRKQ#Ir3UNPcAUpAjkZ-cob_4Urh9ld7dyLLwpbiC5ojDEbU';
@@ -1117,3 +1131,4 @@
     </script>
 </body>
 </html>
+
